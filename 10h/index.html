@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>nczmoo - who am I? who are you?!</title>
+		<style>
+      .bold {
+        font-weight: bold;
+      }
+
+      .d-none {
+        display:none;
+      }
+
+      .tenHTitle{
+        font-weight:bold;
+      }
+      #credits {
+        width: 100%;
+        text-align:center;        
+        bottom: 0;
+        position:absolute;
+      }
+      #links {
+        text-align:right;
+      }
+      .post-header:not(.active){
+        text-decoration:underline;
+        color: grey;
+      }
+      .post-header {
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+
+      .post-header.active {
+        text-decoration:none;
+        color:black;
+      }
+      .post-body {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width:75%;
+        margin-left:20px;
+      }
+
+      .starred {
+        text-decoration: underline;
+        background-color: gainsboro;
+      }
+
+      .tenHDescription{
+        margin-left: 20px;        
+      }
+
+      .tenHAnalysis{
+        margin-bottom:20px;
+        margin-left: 20px;
+      }
+
+      .text-center{
+        text-align: center;
+        margin:10px;
+      }
+      .invisible {
+        display:none;
+      }
+      .winner{
+        background-color: lightgreen;
+      }
+		</style>
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+	</head>
+	<body>        
+    <div id='links'>
+      <a href='https://twitter.com/nczmoo'><img src='../img/icons8-twitter-24.png'></a>
+      <a href='https://github.com/nczmoo'><img src='../img/icons8-github-24.png'></a>
+      <a href='https://www.reddit.com/user/nczmoo/'><img src='../img/icons8-reddit-26.png'></a>
+      <a href='https://nczmoo.itch.io/'><img src='../img/icons8-itch-io-24.png'></a>
+
+      <a href='https://www.twitch.tv/nczmoo'><img src='../img/icons8-twitch-24.png'></a>
+      <!--<a href='https://discord.gg/muYh5r9Wfq'><img src='img/icons8-discord-bubble-24.png'></a>-->
+    </div>
+    <h2 id='r1' class="">
+        Round #1  (Winner: Incremental Engine Builder)
+        <button id="show-round1" class="show">show</button>
+      <button id="hide-round1" class="hide invisible">hide</button>
+    </h2>
+    <div id='round1' class="round-1 invisible">
+        <div class="tenHTitle">
+          Spreadsheets (9.2h)
+      </div>
+      <div class='tenHDescription'>A multiplayer idle-incremental played as a spreadsheet.</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I guess this was multiplayer and that's why it took me 9h, because I don't see a lot of game otherwise. <span class='bold'>not viable</span></div>
+      
+      
+      <div class="tenHTitle">
+      Magic Economy (9.6h)
+      <a href='https://nczmoo.github.io/me/'>[ link ]</a>
+      </div>
+      <div class='tenHDescription'>A multiplayer idle-incremental where the resource system is created by the people playing it. </div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I built this and I didn't, initially, understand how to play it, despite making it. But I think the underlying idea is interesting but I don't know if an incremental where players get to design what the resources are is really all that compelling.</div>
+      <div class="tenHTitle starred">  
+        &#8902; Deckbuilder Autobattler (9.4h) 
+      <a href='https://nczmoo.github.io/da/'>[ link ]</a>
+
+      </div>
+      <div class='tenHDescription'>A deckbuilder autobattler. You're a street gang fighting other gangs. There are racial bonuses to fighting with other people your own race.</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I think it could work, especially for all the stuff I have planned for this, but outside of making it fantasy-themed, I don't think it could be viable. An autobattler for urban street gangs doesn't seem like a really good fit, demographic-wise.</div>
+      <div class="tenHTitle">
+      Terminal (10.1h)
+      <a href='https://nczmoo.github.io/term/'>[ link ]</a>
+
+      </div>
+      <div class='tenHDescription'>A hacking sim where players are typing commands into a terminal to hack into other machines </div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> It's just too much typing. I think I did a more game-y and less realistic version of this so that was good, but it was just too much damn typing for me. </div>
+      <div class="tenHTitle">
+      Hypercapitalism (10h)
+      <a href='https://nczmoo.github.io/hc/'>[ link ]</a>
+
+      </div>
+      <div class='tenHDescription'>A more simplified version of a multiplayer idle-incremental I released a while back about capitalism</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> Kind of hard to parse the UI. Not really engaging.</div>
+      <div class="tenHTitle winner starred">
+        &#8902; Incremental Engine Builder (72h) 
+      <a href='https://nczmoo.github.io/ieb/'>[ link ]</a>
+
+      </div>
+      <div class='tenHDescription'>A game that combines the board game mechanic of engine-building (specifically Gizmos) with the idle idle-incremental genre</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> This was the <span class='bold'>winner</span>. It also made me really question my assumptions about UI and what's inherently intuitive to people. I actually still have 28 hours left on this but I kinda got overwhelmed and stopped. I'll probably finish it up before I work on the Round #2's pick.</div>
+      <div class="tenHTitle starred">
+        &#8902; Superspreader (9.9h)
+      <a href='https://nczmoo.github.io/superspreader/'>[ link ]</a>
+
+      </div>
+      <div class='tenHDescription'>A game about spreading COVID as much as possible.</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I think if this were earlier in the pandemic, I probably would have gone with this because I just like the gameplay that much, but it almost seems kinda passe at this stage. I might still make it because I really like the idea of this.</div>
+      
+      <div class="tenHTitle">
+      Capitalist Propagandist (10.1h)
+      <a href='https://nczmoo.github.io/capprop/'>[ link ]</a>
+
+      </div>
+      <div class='tenHDescription'>You are a propagandist for capitalism and you're trying to convert as much culture into profit as possible.</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I still think this is a good idea (which is why I gave it another try in round #2), but this falls short in so many ways. it took me a while to figure out what was going on initially, but this prototype is <span class='bold'>not viable</span></div>
+      <div class="tenHTitle">
+      Uncle Michael (5.3h)
+      </div>
+      <div class='tenHDescription'>An idle-incremental about memorializing 'your' (mine, obviously) Uncle Michael</div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I gave up at 5.3 hours in because it just wasn't coming together. I still haven't figured out a good way to do this yet but I'd like to. I didn't put up what I did do because this isn't very good and its <span class="bold">not viable</span> </div>
+      <div class="tenHTitle starred">
+        &#8902; Jones In The Fast Lane Clone(10.4h)
+      <a href='https://nczmoo.github.io/jones2/'>[ link ]</a>
+      </div>
+      <div class='tenHDescription'>(This is nothing like Jones In The Fast Lane) If you reduce the Jones In The Fast Lane down to just a time management mechanic, and reduce it further into just economic development, the idea I came up with was you're at work and you must manage how you allocate your time across the various people at work in order to maintain your job. </div>
+      <div class='tenHAnalysis'><span class='bold'>Analysis:</span> The UI leaves much to be desired but I think this could be pretty viable as a mobile  puzzle game, and I don't even think it would require a full 100 hours to get something pretty fun.</div>
+  </div>
+
+  <h2 id='r2' class="">
+    Round #2  (<a href='https://forms.gle/LkkK21ZgZHsSkydd7'>Vote here!</a>)
+    <button id="show-round2" class="show invisible">show</button>
+    <button id="hide-round2" class="hide">hide</button>
+</h2>
+  <div id='round2' class="round-2">
+    <div class="tenHTitle starred">
+      &#8902; Incremental Factorio
+      <a href='https://nczmoo.github.io/incfac/'>[ link ]</a>
+
+    </div>
+    <div class='tenHDescription'>An idle-incremental implementation of a Factorio-like</div>
+    <div class='tenHAnalysis'><span class='bold'>Analysis:</span> I think it has potential. The UI is very difficult to parse, but the biggest issue of creating a factorio-like in the idle-incremental genre is that a logistical game requires space. I think in the way that I implemented it, by having different planets that you have to set up routes to, it could be viable, but probably not the best commercial fit. </div>
+
+    <div class="tenHTitle">Capitalism Survival Simulator
+      <a href='https://nczmoo.github.io/capsurviv/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>A survival game, but instead of being set in nature, set in capitalist dystopia
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span> Falls a bit short, especially in the format that I have it in. The purpose of having multiple stores was to illustrate the different social class preferences of stores (Walmart, Target, Whole Foods) but it adds unnecessary choices that aren't meaningful.
+    </div>
+
+    <div class="tenHTitle">Koala incremental
+      <a href='https://nczmoo.github.io//koainc/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>An idle-incremental implemented in the style of the <a href='https://www.koalasampler.com/'>Koala Sampler</a> app.
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span>  Out of all the prototypes I released, I was so excited when I finished this and released it for feedback. But no one cared about it at  all. In a way that was good, because otherwise, I could have continued development on something that no one is really interested in.
+    </div>
+
+    <div class="tenHTitle">Die Train
+      <a href='https://nczmoo.github.io/dietrain/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>
+      Lay down rails and fight other trains for resources
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span> 
+      Train combat, like this, doesn't work in real-time way because the way I envisioned it, you don't have direct control over the train, just in building the rail and I feel like with the way I envisioned it, it would probably work better as a turn-based game. I could be wrong though.
+    </div>
+
+    <div class="tenHTitle">Capitalist Propagandist 2
+
+      <a href='https://nczmoo.github.io/capprop3/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>
+      You are a propagandist for capitalism and you're trying to convert as much culture into profit as possible. (try #2) 
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span> This plays WAY TOO SLOW. <span class="bold">not viable</span> And even after you create the cards, it's just not very interesting or fun.
+    </div>
+
+
+    <div class="tenHTitle starred">
+      &#8902; Open Air Drug Market
+      <a href='https://nczmoo.github.io/tt2/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>
+      A game about operating an open air drug market. It's part of a larger idea I have for making a Transport Tycoon but for drugs.
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span>  It might be a little indecipherable if you don't know how to play. The numbers are the price you get for selling to someone on that square. When you click, you're placing a dealer and when you run out, a runner brings you drugs. Avoid the blue. That's the cop. The game's not bad but might require too much work for what I'm planning.
+    </div>
+
+
+    <div class="tenHTitle">Christian Soldier
+
+      <a href='https://nczmoo.github.io/cw/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>A game about prosthelyzing Christianity and building a church up
+
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis</span>: Interestingly, this particular prototype is not interesting or fun at all, but during <a href='https://nczmoo.github.io/ld53/'>Ludum Dare 53</a>, I was able to create an aspect of this game for sermons that works pretty well.
+    </div>
+
+
+    <div class="tenHTitle starred">
+      
+      &#8902; Dungeon Crawler Slots
+
+      <a href='https://nczmoo.github.io/dcs/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'> An idle-incremental dungeon crawler where you dive into a dungeon to kill mobs for gold BUT when you go to town to buy equipment, the store is a slot machine.
+
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span>  This one is super cool. I think it'd be a really great mobile game.
+    </div>
+
+
+
+
+    <div class="tenHTitle starred">
+      &#8902; Fighting Engine Builder
+      <a href='https://nczmoo.github.io/feb/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>A fighting game (probably more in the autobattler genre) but you don't directly control your fighter, you pick cards beforehand that figure out how you're going to fight
+
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span>  this is actually pretty cool. Not sure how much overlap there would be for fans of the fighting game genre and fans of the autobattler genre, because people play fighting games for intricate controls and people play autobattlers to not have control.
+    </div>
+
+    <div class="tenHTitle starred">
+      &#8902; El Coyote
+
+      <a href='https://nczmoo.github.io/coyo/'>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>
+      A hybrid logic puzzle & stealth game about guiding people from Mexico across the border into America
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span> 
+      Ten hours is not adequate in order to develop the prototype I had planned but I think did an okay job. The world map is minesweeper that you manually control the avatar and the local map is an approximation of a turn based tactical game.
+    </div>
+
+  </div>
+<!--
+    <div class="tenHTitle">
+      <a href=''>[ link ]</a>
+    </div>
+    <div class='tenHDescription'>
+
+    </div><div class='tenHAnalysis'>
+      <span class='bold'>Analysis:</span> 
+    </div>
+
+
+-->
+    <div id='credits'><div>
+
+    <a target="_blank" href="https://icons8.com/icon/102900/twitter">
+    Twitter
+  </a>,
+  <a target="_blank" href="https://icons8.com/icon/871/reddit">Reddit</a>,
+  <a target="_blank" href="https://icons8.com/icon/taWYJvfbBQ6J/twitch">
+    Twitch
+  </a> &
+  <a target="_blank" href="https://icons8.com/icon/G0225mVJFc3U/discord-bubble">
+    Discord Bubble
+  </a>
+  icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+</div>
+    <script src='https://code.jquery.com/jquery-3.6.1.js'></script>
+    <script src='../js.js'></script>
+
+</body></html>
